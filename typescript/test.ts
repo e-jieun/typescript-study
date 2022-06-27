@@ -37,6 +37,7 @@ let jieun:Person = ['lee', 28];
 // ?일일이 타입을 지정하지 않고 한꺼번에 지정해두고 사용하는 방법은 없을까?
 type Member = {
   // name:string
+  // !이렇게 사용하면 속성마다 일일이 타입을 지정해주지 않아도 된다, 여러 속성을 사용해도 에러가 나지 않음
   [key:string]:string
 }
 let jimin:Member = {
