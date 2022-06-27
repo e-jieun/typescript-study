@@ -1,0 +1,13 @@
+{   
+  "compilerOptions" : {     
+    "target": "esnext",     
+    "module": "commonjs",
+    // 컴파일링 옵션
+    // ?strict모드 여러개를 한번에 켜주는 것
+    // "strict": true
+    // ?null 타입이 들어올 때 엄격하게 체크해달라는 의미
+    // "strictNullChecks": true  
+    // ?false로 바꿔주면 narrowing을 하지 않아도 된다
+    "strictNullChecks": false  
+  } 
+}
