@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "pokemon": "^2.3.3",
+    "spotify": "^0.3.0"
+  }
+}

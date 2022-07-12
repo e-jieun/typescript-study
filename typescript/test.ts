@@ -1,7 +1,10 @@
+// JSON 파일 있고, terminal에 tsc 누르면 컴파일 됨
+
 let hi: string = 'hello world';
 // hi = 123;
 
 let arr:string[] = ['1', '2'];
+
 // arr = [1, 2, 3];
 
 // let obj: {name: string} = {name: 'jieunlee'};
@@ -38,9 +41,16 @@ let jieun:Person = ['lee', 28];
 type Member = {
   // name:string
   // !이렇게 사용하면 속성마다 일일이 타입을 지정해주지 않아도 된다, 여러 속성을 사용해도 에러가 나지 않음
-  [key:string]:string
+  [key:string]:string 
+  // [key:string]:number  //하나 더 타입을 정해주지는 못하는 걸까?
 }
 let jimin:Member = {
   name: 'lee',
   age: '23'
 };
+
+enum Color {
+  Red,
+  Green,
+  Blue
+}
